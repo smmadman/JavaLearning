@@ -17,7 +17,7 @@ package JDBC.transaction;
  * 		>DML默认情况下，一旦执行，就会自动提交。
  * 			>我们可以通过set autocommit = false的方式取消DML操作的自动提交。
  * 		>默认在关闭连接时，会自动的提交数据
- * 		即DML下，始终使用一个连接，且关闭自动提交
+ * 		    即DML下，始终使用一个连接，且关闭自动提交
  */
 
 import JDBC.utils.JDBCUtils;
