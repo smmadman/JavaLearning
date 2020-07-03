@@ -120,7 +120,7 @@ public class PreparedStatementUpdateTest {
             ps.setString(1, "哪吒");
             ps.setString(2, "nezha@gmail.com");
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            java.util.Date date = sdf.parse("1000-01-01");
+            java.util.Date date = sdf.parse("1190-01-01");
             ps.setDate(3, new Date(date.getTime()));
 
             //6.执行操作
