@@ -1,4 +1,4 @@
-package LeetCode.src.AlgorithmTest;
+package LeetCode.AlgorithmTest;
 
 import java.util.ArrayList;
 import java.util.Arrays;

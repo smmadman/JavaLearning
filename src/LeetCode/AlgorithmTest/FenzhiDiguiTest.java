@@ -1,8 +1,6 @@
-package LeetCode.src.AlgorithmTest;
+package LeetCode.AlgorithmTest;
 
-import java.sql.Time;
-
-public class FenzhiDigui{
+public class FenzhiDiguiTest{
     public static void main(String[] args) {
         Long startTime = System.currentTimeMillis();
         System.out.println(cuttingRope(100));
@@ -15,7 +13,7 @@ public class FenzhiDigui{
         int res = -1;
 
         for(int i = 1; i < n; i++){
-            res = Math.max(res, Math.max(i * cuttingRope(n - i), i * (n - i)));
+            res = Math.max(res, Math.max(i * cuttingRope(n - 1), i * (n - 1)));
         }
         return res;
     }

@@ -1,4 +1,4 @@
-package jianzhioffer;
+package LeetCode.jianzhioffer;
 
 import java.util.LinkedList;
 import java.util.Queue;

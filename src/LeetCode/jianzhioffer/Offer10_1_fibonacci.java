@@ -1,4 +1,4 @@
-package jianzhioffer;
+package LeetCode.jianzhioffer;
 
 public class Offer10_1_fibonacci {
     public static void main(String[] args) {

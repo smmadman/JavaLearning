@@ -1,6 +1,6 @@
-package LeetCode.src.AlgorithmTest;
+package LeetCode.AlgorithmTest;
 
-public class FenzhiDiguiTest{
+public class FenzhiDigui{
     public static void main(String[] args) {
         Long startTime = System.currentTimeMillis();
         System.out.println(cuttingRope(100));
@@ -13,7 +13,7 @@ public class FenzhiDiguiTest{
         int res = -1;
 
         for(int i = 1; i < n; i++){
-            res = Math.max(res, Math.max(i * cuttingRope(n - 1), i * (n - 1)));
+            res = Math.max(res, Math.max(i * cuttingRope(n - i), i * (n - i)));
         }
         return res;
     }
