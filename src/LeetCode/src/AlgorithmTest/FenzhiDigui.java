@@ -1,4 +1,4 @@
-package AlgorithmTest;
+package LeetCode.src.AlgorithmTest;
 
 import java.sql.Time;
 

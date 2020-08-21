@@ -1,4 +1,4 @@
-package AlgorithmTest;
+package LeetCode.src.AlgorithmTest;
 
 public class FenzhiDiguiTest{
     public static void main(String[] args) {
