@@ -30,7 +30,7 @@ package LeetCode.jianzhioffer;
 public class Offer12_matrixPath {
 }
 
-class Solution {
+class matrixPathSolution {
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         for(int i = 0; i < board.length; i++) {
