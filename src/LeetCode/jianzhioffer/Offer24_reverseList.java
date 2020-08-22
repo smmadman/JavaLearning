@@ -3,7 +3,7 @@ package LeetCode.jianzhioffer;
 import java.util.List;
 import java.util.Stack;
 
-public class Offer25_reverseList {
+public class Offer24_reverseList {
     public static void main(String[] args) {
 
     }
