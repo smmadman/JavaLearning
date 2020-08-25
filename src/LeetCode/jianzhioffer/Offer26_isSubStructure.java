@@ -19,7 +19,7 @@ public class Offer26_isSubStructure {
  *
  * isSubStructure(A, B) 函数：
  *
- * 特例处理： 当 树 AA 为空 或 树 BB 为空 时，直接返回 falsef；
+ * 特例处理： 当 树 AA 为空 或 树 BB 为空 时，直接返回 false；
  * 返回值： 若树 BB 是树 AA 的子结构，则必满足以下三种情况之一，因此用或 || 连接；
  * 以 节点 AA 为根节点的子树 包含树 BB ，对应 recur(A, B)；
  * 树 BB 是 树 AA 左子树 的子结构，对应 isSubStructure(A.left, B)；

@@ -22,7 +22,7 @@ public class Offer24_reverseList {
         newHead.next = head;
 
         ListNode temp = head.next;
-        ListNode temp2 = head.next;
+        ListNode temp2;
 
         while(temp != null){
             temp2 = temp;
