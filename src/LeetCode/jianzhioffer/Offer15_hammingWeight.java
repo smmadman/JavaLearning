@@ -6,8 +6,6 @@ public class Offer15_hammingWeight {
         System.out.println(hammingWeight(0b11111111111111111111111111111101));
     }
 
-
-
     public static int hammingWeight(int n){
         int count = 0;
         for(int i = 0; i < 32; i++){
