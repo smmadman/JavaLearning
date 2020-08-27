@@ -18,7 +18,7 @@ public class HuaweiTest {
             numbers[i] = Integer.parseInt(nums[i]);
         }
 
-        for(int i = 0; i < numbers.length; i++){
+        for(int i = 0; i < numbers.length; i++){ // 交换相邻两位
             long temp = numbers[i];
             for(int j = 0; j < 16; j++){
                 int temp2 = 3 << j * 2;
@@ -31,7 +31,7 @@ public class HuaweiTest {
             numbers[i] = temp;
         }
 
-        if(numbers.length == 1){
+        if(numbers.length == 1){ // 如果只有一个数字，后两位到前两位
             int mask = 3;
             long temp0 = mask & numbers[0];
 
@@ -40,7 +40,7 @@ public class HuaweiTest {
 
             numbers[0] = numbers[0] | temp0;
 
-        }else{
+        }else{ // 如果多个数字，后两位变成下一个数字的前两位
             int mask = 3;
             long temp0 = mask & numbers[numbers.length - 1];
             temp0 <<= 30;
