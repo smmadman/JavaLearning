@@ -4,7 +4,7 @@ package LeetCode.jianzhioffer;
 
 public class Offer05_replaceSpace {
     public static void main(String[] args) {
-
+        System.out.println("heihei");
     }
 
     public static String replaceSpace(String s) { // 复制一个（初始长度为3倍的空数组）
