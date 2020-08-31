@@ -15,18 +15,33 @@ import java.util.Stack;
  */
 public class Offer31_validateStack {
     public static void main(String[] args) {
-
+        System.out.println(validateStackSequences(new int[]{1, 2, 3, 4, 5}, new int[]{4, 5, 3, 2, 1}));
     }
     public static boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> stack = new Stack<>();
 
         int popIndex = 0;
         int pushIndex = 0;
-        while(pushIndex < pushed.length){
 
+        while(pushIndex < pushed.length){
+            stack.push(pushed[pushIndex]);
+            pushIndex ++;
+
+            while(stack.peek() == popped[popIndex]){
+                stack.pop();
+                popIndex++;
+
+                if(stack.empty()){
+                    break;
+                }
+            }
         }
 
-        return true;
+        if(popIndex == popped.length){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
 

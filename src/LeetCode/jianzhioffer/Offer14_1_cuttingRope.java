@@ -1,6 +1,6 @@
 package LeetCode.jianzhioffer;
 
-public class Offer14_1cuttingRope {
+public class Offer14_1_cuttingRope {
     public static void main(String[] args) {
 
     }
