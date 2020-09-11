@@ -1,8 +1,5 @@
 package LeetCode.jianzhioffer;
 
-import sun.awt.image.ImageWatched;
-import sun.rmi.server.InactiveGroupException;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

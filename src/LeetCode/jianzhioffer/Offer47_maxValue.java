@@ -3,7 +3,7 @@ package LeetCode.jianzhioffer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class maxValue {
+public class Offer47_maxValue {
     public static void main(String[] args) {
 
     }
