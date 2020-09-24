@@ -37,7 +37,6 @@ public class SougouTest1 {
             array[1] --;
             array[0] ++;
 
-
             Arrays.sort(array);
             if(array[2] + array[1] - array[0] * 2 < 2){
                 break;
